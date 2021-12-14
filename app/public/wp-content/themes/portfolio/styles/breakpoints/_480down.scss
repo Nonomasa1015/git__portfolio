@@ -1,0 +1,56 @@
+.header {
+    &__title {
+        font-size: 18px;
+        width: 208%;
+
+        @media (max-width: 400px) {
+            font-size: 14px;
+            width: 267%;
+        }
+    }
+}
+
+.heading {
+    display: flex;
+    flex-direction: column;
+
+    &__line {
+        display: none;
+    }
+
+    &__title {
+        margin-bottom: 10px;
+        font-size: 8vw !important;
+    }
+
+    &__subtitle {
+        font-size: 3.5vw !important;
+    }
+    
+}
+
+.footerBtn {
+    padding: 0px 10px;
+}
+
+.index {
+    &__body {
+        width: calc(100% - 20px);
+        top: 130px;
+        padding: 20px;
+    }
+
+    @media (max-width: 400px) {
+        padding-bottom: 180px;
+    }
+}
+
+.taxonomy {
+    &__article {
+        width: 100%;
+    }
+
+    &__articleInner {
+        margin-bottom: 25px;
+    }
+}

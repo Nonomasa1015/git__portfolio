@@ -1,0 +1,46 @@
+body {
+    font-family: 'Kameron', 'Noto Sans JP', sans-serif;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: bottom;
+}
+
+.font-sm {
+    font-size: 13px;
+}
+
+.font-md {
+    font-size: 15px;
+}
+
+.font-lr {
+    font-size: 20px;
+}
+
+.font-lg {
+    font-size: 25px;
+}
+
+.mb-sm {
+    margin-bottom: 20px !important;
+}
+
+.mb-lg {
+    margin-bottom: 75px !important;
+}
+
+.pb-sm {
+    padding-bottom: 20px !important;
+}
+
+.pb-lg {
+    padding-bottom: 75px !important;
+}
+
+.content-width {
+    width: 100%;
+    margin: 0 auto;
+    max-width: $contentMaxWidth;
+}

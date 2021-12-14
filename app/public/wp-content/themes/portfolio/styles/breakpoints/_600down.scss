@@ -1,0 +1,122 @@
+.header {
+    &__title {
+        font-size: 21px;
+        width: 158%;
+    }
+}
+
+.myself {
+    &__box {
+        padding: 10px;
+    }
+
+    &__header {
+        display: flex;
+        margin-bottom: 20px;
+    }
+
+    &__right {
+        
+        & .time-600down {
+            width: 30%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            width: calc(35% - 20px);
+            margin-right: 20px;
+
+            &__year {
+                font-size: 4vw;
+            }
+
+            &__days {
+                font-size: 8vw;
+                font-weight: 400;
+                position: relative;
+                
+                & .month {
+                    position: absolute;
+                    right: 15px;
+                    font-size: 0.7em;
+                }
+
+                & .date {
+                    position: absolute;
+                    bottom: 0;
+                    font-size: 0.7em;
+                }
+            }
+
+            &__title {
+                font-size: 3vw;
+                text-align: center;
+                border-radius: 100px;
+                background-color: $yellow;
+                width: 80%;
+                color: white;
+            }
+        }
+    }
+
+    &__title {
+        font-size: 4.8vw;
+        width: 70%;
+    }
+
+    &__contents {
+
+        & .time {
+            display: none;
+        }
+    }
+
+    &__shaft {
+        width: 100%;
+    }
+
+    &__text {
+        padding-top: 10px !important;
+        margin-top: 10px !important;
+    }
+}
+
+.index {
+
+    &__body {
+        top: 200px;
+    }
+}
+
+.footer {
+
+    &__ul {
+        justify-content: space-between;
+    }
+    &__li {
+        margin: 0 0px 20px 0px;
+        width: calc(50% - 20px)
+    }
+}
+
+.taxonomy {
+    &__img {
+        height: 200px;
+        padding: 20px;
+    }
+}
+
+.searchPage {
+    &__form {
+        margin-bottom: 15px;
+
+        & > input {
+            width: 63%;
+        }
+
+        & > button {
+            width: 20%;
+            margin-left: 10px;
+        }
+    }
+}

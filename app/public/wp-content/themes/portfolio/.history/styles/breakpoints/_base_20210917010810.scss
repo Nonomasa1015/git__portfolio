@@ -1,0 +1,76 @@
+body {
+    font-family: 'Kameron', 'Noto Sans JP', sans-serif;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: bottom;
+}
+
+.font-sm {
+    font-size: 12px;
+}
+
+.font-md {
+    font-size: 15px;
+}
+
+.font-lr {
+    font-size: 18px;
+}
+
+.font-lg {
+    font-size: 48px;
+}
+
+.mb-sm {
+    margin-bottom: 40px !important;
+}
+
+.mb-lg {
+    margin-bottom: 75px !important;
+}
+
+.pb-sm {
+    padding-bottom: 40px !important;
+}
+
+.pb-lg {
+    padding-bottom: 75px !important;
+}
+
+.content-width {
+    width: 100%;
+    margin: 0 auto;
+    max-width: $contentMaxWidth;
+}
+
+.main-title {
+    @extend .font-lg;
+    font-weight: bold;
+}
+
+.sub-title {
+    font-size: 22px;
+}
+
+.container {
+    display: flex;
+}
+
+header {
+    width: 240px;
+}
+
+main {
+    width: calc(100% - 240px);
+}
+
+.news {
+    @extend 
+    background-color: $cOrange;
+    
+    &_
+}
+
+

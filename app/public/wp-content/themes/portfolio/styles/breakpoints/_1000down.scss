@@ -1,0 +1,44 @@
+main {
+    width: 100%;
+}
+
+aside {
+    display: none;
+}
+
+.mobileBtn {
+    display: block;
+}
+
+.myself {
+
+    &__box {
+        flex-direction: column;
+    }
+
+    &__img {
+        margin: 0 auto;
+        width: 250px;
+        height: 200px;
+        margin-bottom: 20px;
+
+        & > img {
+            object-position: 100% 0%;
+        }
+    }
+
+    &__right {
+        margin-left: 0;
+        width: 100%;
+    }
+}
+
+.sns {
+    &__box {
+        flex-direction: column;
+
+        & > li {
+            margin: 0 auto;
+        }
+    }
+}

@@ -1,0 +1,76 @@
+.content-width {
+    width: calc(100% - 50px);
+}
+
+.header {
+    &__title {
+        font-size: 30px;
+        width: 95%;
+
+        @media (max-width: 800px) {
+            font-size: 24px;
+            width: 125%;
+        }
+    }
+}
+
+.heading {
+
+    &__line {
+        width: 50px;
+        margin-right: 20px;
+    }
+
+    &__title {
+        font-size: 36px;
+        margin-right: 20px;
+    }
+
+    &__subtitle {
+        font-size: 15px;
+    }
+    
+}
+
+.achivement {
+
+    &__header {
+        margin-right: 0;
+    }
+
+    &__lBtn {
+        width: 130px;
+    }
+
+    &__rBtn {
+        width: 130px;
+    }
+}
+
+.myself {
+
+    &__shaftTitle {
+        width: calc(20% - 15px) !important;
+    }
+
+    &__shaftText {
+        width: 80% !important;
+    }
+}
+
+.index {
+
+    &__body {
+        width: 400px;
+    }
+
+    &__title {
+        margin-bottom: 20px;
+    }
+}
+
+.footer {
+    &__ul {
+        width: 100%;
+    }
+}

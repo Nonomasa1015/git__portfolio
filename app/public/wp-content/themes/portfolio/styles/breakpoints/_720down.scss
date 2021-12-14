@@ -1,0 +1,172 @@
+.font-title {
+    font-size: 18px;
+}
+
+.font-subtitle {
+    font-size: 15px;
+}
+
+.font-content {
+    font-size: 11px;
+}
+
+.yellow-button {
+    width: 70px;
+}
+
+.achivement {
+
+    &__header {
+        flex-direction: column;
+
+        & > h1 {
+            margin-bottom: 20px;
+        }
+    }
+
+    &__lBtn {
+        width: 50% !important;
+    }
+
+    &__rBtn {
+        width: 50% !important;
+    }
+
+    &__article {
+
+        .article {
+            width: 100%;
+        }
+    }
+}
+
+
+.portfolio {
+    &__box {
+        width: 100%;
+    }
+}
+
+.copy {
+    &__box {
+        width: 100%;
+    }
+}
+
+.front-btn {
+    & > a {
+        width: 300px;
+        height: 60px;
+    }
+}
+
+.achivement__article, .portfolio__boxes, .copy__contents {
+    flex-direction: column;
+    flex-wrap: none;
+}
+
+.contentDetails {
+    padding: 80px 0;
+    &__inner {
+        width: calc(100% - 25px);
+    }
+
+    &__top {
+        margin-bottom: 10px;
+    }
+
+    &__bottom {
+        margin-bottom: 15px;
+        padding-bottom: 15px;
+
+        & > h2 {
+            margin-bottom: 15px;
+        }
+    }
+
+    &__img {
+        width: 100%;
+    }
+
+    &__strength {
+        
+        & > h3 {
+            margin-bottom: 15px;
+        }
+    }
+}
+
+.index {
+    padding: 80px 0 140px 0;
+
+    &__body {
+        width: calc(100% - 80px);
+        left: 50%;
+        top: 280px;
+        transform: translateX(-50%);
+        padding: 35px;
+    }
+
+    &__title {
+        margin-bottom: 15px;
+    }
+
+    &__img {
+        margin: 0;
+        width: 100%;
+        height: auto;
+    }
+}
+
+.taxonomy {
+    padding: 80px 0;
+
+    &__inner {
+        flex-direction: column;
+    }
+
+    &__article {
+        width: calc(100% - 100px);
+        margin: 0 auto;
+    }
+
+    &__articleInner {
+        margin-bottom: 40px;
+    }
+}
+
+.contact {
+    padding: 80px 0;
+
+    &__top {
+        margin-bottom: 15px;
+
+        & > h2 {
+            margin-bottom: 10px;
+        }
+
+        & > p {
+            margin-bottom: 15px;
+        }
+    }
+
+    &__inputBox {
+        margin-bottom: 12.5px;
+
+        &:nth-child(4) {
+            margin-bottom: 25px;
+        }
+    }
+
+    &__submit {
+        margin-bottom: 10px;
+    }
+}
+
+.searchPage {
+    padding: 80px 0;
+
+    &__box {
+        flex-direction: column;
+    }
+}
